@@ -1,0 +1,19 @@
+{
+    "name" : "Alexander-Lugovskoy/MyENV",
+    "description" : "Расширение для работы с переменными окружения в PHP",
+    "license" : "proprietary",
+    "authors" : [
+        {
+            "name" : "Alexander Lugovskoy",
+            "email" : "xxDELTAxx@yandex.ru"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^4.1",
+        "php" : ">=7.0"
+    },
+    "autoload": {
+        "classmap":["src"]
+    }
+    
+}
