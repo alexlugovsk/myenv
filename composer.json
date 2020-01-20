@@ -10,7 +10,6 @@
     ],
     "require": {
         "vlucas/phpdotenv": "^4.1",
-        "php" : ">=7.0"
     },
     "autoload": {
         "classmap":["src"]
