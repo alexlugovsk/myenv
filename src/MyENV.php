@@ -14,7 +14,7 @@ class MyENV
         return $env; 
     }
 
-    public static function loadENV () {
+    private static function loadENV () {
     	$env_only = MyENV::findAllEnv();
 		foreach ($env_only as $key) {
 			$dotenv = Dotenv\Dotenv::createImmutable('./', $key);
@@ -22,7 +22,7 @@ class MyENV
 		}
     }
 
-	public static function findAllEnv() {
+	private static function findAllEnv() {
 
 		$path = $_SERVER["DOCUMENT_ROOT"];
 		$directory = new \RecursiveDirectoryIterator($path);
