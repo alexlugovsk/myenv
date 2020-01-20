@@ -2,7 +2,7 @@
     "name" : "alexlugovsk/myenv",
     "description" : "Расширение для работы с переменными окружения в PHP",
     "license" : "proprietary",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors" : [
         {
             "name" : "Alexander Lugovskoy",
