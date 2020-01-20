@@ -1,5 +1,5 @@
 {
-    "name" : "Alexander-Lugovskoy/MyENV",
+    "name" : "alexlugovsk/myenv",
     "description" : "Расширение для работы с переменными окружения в PHP",
     "license" : "proprietary",
     "authors" : [
